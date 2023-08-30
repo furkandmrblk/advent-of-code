@@ -14,7 +14,10 @@ function main() {
   rockPaperScissors().part2();
 
   // 03
-  rucksackReorganization();
+  rucksackReorganization().part1();
+  rucksackReorganization().part2();
+
+  // 04
 }
 
 main();
