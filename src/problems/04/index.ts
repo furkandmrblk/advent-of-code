@@ -38,7 +38,6 @@ export const campCleanup = () => {
   };
 
   const part2 = () => {
-    console.log(count2);
     return count2;
   };
 

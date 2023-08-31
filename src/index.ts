@@ -2,6 +2,7 @@ import { caloryCounting } from './problems/01';
 import { rockPaperScissors } from './problems/02';
 import { rucksackReorganization } from './problems/03';
 import { campCleanup } from './problems/04';
+import { supplyStacks } from './problems/05';
 
 function main() {
   console.log('Advent of Code Adventures');
@@ -21,6 +22,12 @@ function main() {
   // 04
   campCleanup().part1();
   campCleanup().part2();
+
+  // 05
+  supplyStacks();
+  supplyStacks(true);
+
+  // 06
 }
 
 main();
